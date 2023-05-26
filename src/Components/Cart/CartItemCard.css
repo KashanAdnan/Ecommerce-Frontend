@@ -1,0 +1,61 @@
+.CartItemCard {
+  display: flex;
+  padding: 1vmax;
+  height: 8vmax;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.CartItemCard>img {
+  width: 6vmax;
+}
+
+.CartItemCard>div {
+  display: flex;
+  margin: 0.3vmax 1vmax;
+  flex-direction: column;
+}
+
+.CartItemCard>div>a {
+  font: 500 1.3vmax "Poppins";
+  color: rgba(24, 24, 24, 0.815);
+  text-decoration: none;
+}
+
+.CartItemCard>div>span {
+  font: 400 1.4vmax "Poppins";
+  color: rgba(24, 24, 24, 0.815);
+}
+
+.CartItemCard>div>p {
+  color: #000000;
+  font: 300 1vmax "Poppins";
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .CartItemCard {
+    padding: 3vmax;
+    height: 25vmax;
+  }
+
+  .CartItemCard>img {
+    width: 10vmax;
+  }
+
+  .CartItemCard>div {
+    margin: 1vmax 2vmax;
+  }
+
+  .CartItemCard>div>a {
+    font: 300 2vmax "Poppins";
+  }
+
+  .CartItemCard>div>span {
+    font: 300 1.9vmax "Poppins";
+  }
+
+  .CartItemCard>div>p {
+    font: 100 1.8vmax "Poppins";
+  }
+}
